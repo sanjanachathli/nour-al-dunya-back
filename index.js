@@ -32,7 +32,7 @@ const connect = async () => {
 //middleware
 app.use(
   cors({
-    origin: ['nour-al-dunya-r1am.vercel.app', 'http://localhost:3000'],
+    origin: ['https://nour-al-dunya-3jop.onrender.com', 'http://localhost:3000'],
     methods: 'GET, POST, PUT, DELETE',
     allowedHeaders: 'Content-Type, Authorization',
     credentials: true
