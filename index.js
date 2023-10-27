@@ -32,7 +32,7 @@ const connect = async () => {
 //middleware
 app.use(
   cors({
-    origin: ['https://noualduniya.netlify.app', 'http://localhost:3000'],
+    origin: ['nour-al-dunya-r1am.vercel.app', 'http://localhost:3000'],
     methods: 'GET, POST, PUT, DELETE',
     allowedHeaders: 'Content-Type, Authorization',
     credentials: true
